@@ -79,7 +79,7 @@ public class RechnerPage extends BasePage{
         //kirche.click();
         bundeslandSelect.selectByVisibleText("Niedersachsen");
         wohnortInputBox.sendKeys("26789");
-        beruf.sendKeys("Software Test Engineer");
+        beruf.sendKeys("Software Tester");
         krankenkasseSelect.selectByVisibleText("gesetzlich versichert");
         berechnenButton.click();
     }

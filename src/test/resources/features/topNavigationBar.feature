@@ -1,7 +1,7 @@
 @navigation @smoke
 Feature: Top Navigation Bar Functionality
 
- Scenario Outline: Verify the titles of the navigation menu
+ Scenario Outline: Verify the page titles of the navigation menu
    Given the user is on the main page
    When user logs in with valid credentials
     And user navigates to "<tab>" menu
